@@ -52,6 +52,7 @@ _For theming: add separate file (theme.scss) in`src/scss/themes/`, override the 
     that, among other, improve the web site's performance and security
 -->
 
+<!--
 ## Dependencies
 ```
   "browser-sync": "^2.0.0-rc4",
@@ -111,6 +112,7 @@ _For theming: add separate file (theme.scss) in`src/scss/themes/`, override the 
 - audit
   - sass-lint
   - stats
+-->
 
 ## Directory structure
 
@@ -172,12 +174,16 @@ _For theming: add separate file (theme.scss) in`src/scss/themes/`, override the 
 └── package.json
 ```
 
+## Developpé par
+ Developed by [@MinaMarkham](http://twitter.com/MinaMarkham).
+<!--
 ## Bugs & Support
-Developed by [@MinaMarkham](http://twitter.com/MinaMarkham). Please list all bugs and feature requests in the Github issue tracker.
+ Please list all bugs and feature requests in the Github issue tracker.
 
 ## Thanks & Resources
 
 This toolkit is based on the work of the following fine people & projects.
+-->
 
 - [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate)
 - [Scalable and Modular Architecture for CSS](http://smacss.com/book) (<abbr title="Scalable and Modular Architecture for CSS">SMACSS</abbr>)
