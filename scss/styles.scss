@@ -98,6 +98,7 @@ $pesticide-debug-depth: false;
 }
 
 #sociaux {
+    display: flex;
     width: 80%;
     margin: 0 10%;
     height: 300px;
@@ -108,7 +109,7 @@ $pesticide-debug-depth: false;
         @include border-top-radius(5px);
     }
     a#strava {
-        font: 11px Helvetica, Arial, sans-serif;
+        font: 11px Helvetica, Arial, serif;
         background: url('http://badges.strava.com/logo-strava-echelon.png') no-repeat 10px center #FC4C02;
         display: inline-block;
         color: #fff;

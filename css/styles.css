@@ -509,6 +509,9 @@ h6 {
         align-self: center; }
 
 #sociaux {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 80%;
   margin: 0 10%;
   height: 300px; }
@@ -519,7 +522,7 @@ h6 {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px; }
   #sociaux a#strava {
-    font: 11px Helvetica, Arial, sans-serif;
+    font: 11px Helvetica, Arial, serif;
     background: url("http://badges.strava.com/logo-strava-echelon.png") no-repeat 10px center #FC4C02;
     display: inline-block;
     color: #fff;
