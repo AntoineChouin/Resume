@@ -5,6 +5,7 @@
 
 A starter toolkit based on [Scalable and Modular Architecture for CSS](http://smacss.com/) (SMACSS) and [Atomic Design](http://atomicdesign.bradfrost.com) for [Sass](http://sass-lang.com/) (SCSS) projects. Do what you'd like with it :)
 
+<!--
 Styles are broken down into the following groups: **Base, Layout, Atoms, Molecules, Organisms, States, Themes, Utilities and Overrides**
 
 ## Getting Started
@@ -49,6 +50,7 @@ _For theming: add separate file (theme.scss) in`src/scss/themes/`, override the 
     detection
   - [`Apache Server Configs`](https://github.com/h5bp/server-configs-apache)
     that, among other, improve the web site's performance and security
+-->
 
 ## Dependencies
 ```
