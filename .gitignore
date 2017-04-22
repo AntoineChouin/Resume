@@ -4,3 +4,8 @@
 node_modules/
 dist/
 /scss/utilities/_fonts.css.map
+/scss/styles.css
+/scss/styles.css.map
+/scss/utilities/_fonts.css
+/scss/libs/_normalize.css.map
+/scss/libs/_normalize.css

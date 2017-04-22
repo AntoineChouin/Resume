@@ -71,7 +71,7 @@ $pesticide-debug-depth: false;
         text-align: center;
         font-size: 255%;
         color: mix($color-notice, $color-warning, 15%);
-        font-family: $font-breeSerif;
+        font-family: sans-serif;
     }
     .row {
         display: flex;
@@ -107,6 +107,10 @@ $pesticide-debug-depth: false;
         background: white;
         color: chocolate;
         @include border-top-radius(5px);
+    }
+    .media_strava {
+        justify-content: space-around;
+        align-content: center;
     }
     a#strava {
         font: 11px Helvetica, Arial, serif;
