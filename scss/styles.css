@@ -596,11 +596,11 @@ h6 {
     color: chocolate;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px; }
-  /* line 111, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/styles.scss */
-  #sociaux .media_strava {
+  /* line 112, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/styles.scss */
+  #sociaux.media {
     justify-content: space-around;
     align-content: center; }
-  /* line 115, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/styles.scss */
+  /* line 116, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/styles.scss */
   #sociaux a#strava {
     font: 11px Helvetica, Arial, serif;
     background: url("http://badges.strava.com/logo-strava-echelon.png") no-repeat 10px center #FC4C02;
@@ -609,7 +609,7 @@ h6 {
     white-space: nowrap;
     text-decoration: none;
     border-radius: 3px; }
-    /* line 124, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/styles.scss */
+    /* line 125, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/styles.scss */
     #sociaux a#strava img {
       margin-left: 2px;
       vertical-align: text-bottom; }

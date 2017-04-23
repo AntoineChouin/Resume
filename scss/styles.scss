@@ -108,7 +108,8 @@ $pesticide-debug-depth: false;
         color: chocolate;
         @include border-top-radius(5px);
     }
-    .media_strava {
+    
+    &.media {
         justify-content: space-around;
         align-content: center;
     }

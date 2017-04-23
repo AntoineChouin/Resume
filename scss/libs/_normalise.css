@@ -1,0 +1,227 @@
+/* line 45, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block; }
+
+/* line 61, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+audio,
+canvas,
+video {
+  display: inline-block; }
+
+/* line 74, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/* line 84, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+[hidden], template {
+  display: none; }
+
+/* line 97, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+html {
+  background: #fff;
+  color: #000;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+/* line 109, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif; }
+
+/* line 119, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+body {
+  margin: 0; }
+
+/* line 132, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+a {
+  background: transparent; }
+  /* line 139, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+  a:focus {
+    outline: thin dotted; }
+  /* line 145, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+  a:hover, a:active {
+    outline: 0; }
+
+/* line 159, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* line 164, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0; }
+
+/* line 169, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0; }
+
+/* line 174, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0; }
+
+/* line 179, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0; }
+
+/* line 184, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+h6 {
+  font-size: 0.75em;
+  margin: 2.33em 0; }
+
+/* line 198, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+dfn {
+  font-style: italic; }
+
+/* line 204, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/* line 220, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+/* line 233, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+/* line 241, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+
+/* line 257, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/* line 266, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+small {
+  font-size: 80%; }
+
+/* line 273, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 281, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+sup {
+  top: -0.5em; }
+
+/* line 285, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+sub {
+  bottom: -0.25em; }
+
+/* line 337, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+img {
+  border: 0; }
+
+/* line 346, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* line 356, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+figure {
+  margin: 0; }
+
+/* line 373, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/* line 384, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal; }
+
+/* line 398, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline; }
+
+/* line 413, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+button, input {
+  line-height: normal; }
+
+/* line 422, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+button,
+select {
+  text-transform: none; }
+
+/* line 435, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+/* line 448, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+button[disabled],
+input[disabled] {
+  cursor: default; }
+
+/* line 457, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/* line 466, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+/* line 477, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 485, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+  /* line 493, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+  input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none; }
+
+/* line 503, /Users/Antoinechouinard/Documents/Programmation/Web/Resume/Resume_Main_git/scss/libs/_normalise.scss */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0; }
+
+/*# sourceMappingURL=_normalise.css.map */

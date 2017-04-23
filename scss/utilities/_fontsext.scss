@@ -1,5 +1,16 @@
-
-
-@import url('https://fonts.googleapis.com/css?family=Baloo|Bree+Serif');
-$font-balo: 'Baloo',cursive;
-$font-breeSerif: 'Bree Serif',serif;
+@import url('https://fonts.googleapis.com/css?family=Graduate|IM+Fell+English|Oswald');
+$font-balo: $font-english
+$font-breeSerif: $font-oswald;
+$font-default: 'IM Fell French Canon SC', serif;
+$font-serif: serif;
+$font-sans-serif: sans-serif;
+$font-cursive: cursive;
+$font-english: 'IM Fell English', serif;
+$font-oswald: 'Oswald', ;
+$font-graduate:'Graduate', cursive;
+footer{
+    font-family: font-balo;
+}
+//font-family: 'IM Fell English', serif;
+//font-family: 'Oswald', sans-serif;
+//font-family: 'Graduate', cursive;
