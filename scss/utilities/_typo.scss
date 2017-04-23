@@ -1,0 +1,18 @@
+
+//// $base-font-size - {number}
+$base-font-size: 16;
+//// $base-line-height
+////
+//// Base line-height in used in _mixins.scss
+////
+//// $base-line-height - {number}
+$base-line-height: 24;
+
+
+$font-family-display: $font-balo  ;
+$font-family-default: 'Helvetica', 'Arial', sans-serif;
+$font-family-sans-fallback: 'Arial', sans-serif;
+$font-family-sans: 'Helvetica Neue','Helvetica', $font-family-sans-fallback;
+$font-family-serif: 'Georgia','Cambria','Times New Roman','Times', serif;
+$font-family-monospace: 'Inconsolata','Menlo','Consolas','Bitstream Vera Sans Mono', 'Courier', monospace;
+$font-family-default: $font-family-sans;

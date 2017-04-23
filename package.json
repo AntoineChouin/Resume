@@ -25,7 +25,10 @@
   "bugs": {
     "url": "https://github.com/minamarkham/sassy-starter/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "jquery": "^3.0",
+    "font-awesome": "^4.0"
+  },
   "devDependencies": {
     "browser-sync": "^2.0.0-rc4",
     "colors": "^1.1.2",

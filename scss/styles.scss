@@ -1,16 +1,3 @@
-//@charset 'utf-8';
-// ==========================================================================
-// Sassy Starter by Mina Markham
-// A SMACSS-based starter toolkit for SCSS projects
-//
-// The toolkit uses recommendations from Scalable and Modular Architecture for CSS (SMACSS)
-// @link http://smacss.com/book
-//
-// Site:    https://minamarkham.github.io/sassy-starter
-// Author:  Mina Markham
-// Email:   mina@mina.codes
-// Date:    10/25/15
-// ==========================================================================
 // CSS Debugging
 //
 // Toggle layout debugging with CSS Pesticide.
@@ -84,7 +71,7 @@ $pesticide-debug-depth: false;
         text-align: center;
         font-size: 255%;
         color: mix($color-notice, $color-warning, 15%);
-        font-family: $font-breeSerif;
+        font-family: sans-serif;
     }
     .row {
         display: flex;
@@ -111,6 +98,7 @@ $pesticide-debug-depth: false;
 }
 
 #sociaux {
+    display: flex;
     width: 80%;
     margin: 0 10%;
     height: 300px;
@@ -118,8 +106,25 @@ $pesticide-debug-depth: false;
         height: 90%;
         background: white;
         color: chocolate;
-       
         @include border-top-radius(5px);
-        
+    }
+    
+    &.media {
+        justify-content: space-around;
+        align-content: center;
+    }
+    a#strava {
+        font: 11px Helvetica, Arial, serif;
+        background: url('http://badges.strava.com/logo-strava-echelon.png') no-repeat 10px center #FC4C02;
+        //display: inline-block;
+        color: #fff;
+        padding: 5px 10px 5px 30px;
+        white-space: nowrap;
+        text-decoration: none;
+        border-radius: 3px;
+        img {
+            margin-left: 2px;
+            vertical-align: text-bottom;
+        }
     }
 }

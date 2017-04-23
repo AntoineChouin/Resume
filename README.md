@@ -176,6 +176,8 @@ _For theming: add separate file (theme.scss) in`src/scss/themes/`, override the 
 
 ## Developpé par
  Developed by [@MinaMarkham](http://twitter.com/MinaMarkham).
+## Utilisé par
+  https://github.com/antoinechouin
 <!--
 ## Bugs & Support
  Please list all bugs and feature requests in the Github issue tracker.
